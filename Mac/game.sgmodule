@@ -1,0 +1,5 @@
+#! 由于游戏主机会使用 STUN 技术进行 NAT 穿透，需要进行一些额外的配置才能正常工作。
+#! https://nssurge.zendesk.com/hc/zh-cn/articles/900000208886-Surge-Mac-%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F%E7%89%B9%E6%AE%8A%E8%AE%BE%E5%A4%87%E5%85%BC%E5%AE%B9%E8%AF%B4%E6%98%8E
+
+[General]
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
